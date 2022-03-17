@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>Meu perfil</title>
 </head>
 <body> 
 
-    <ul>
+    <ul id="menu">
         <li> 
           <a href="index.html"> Home  </a>
          </li>  
@@ -18,18 +19,27 @@
       </ul>
 
 
-    <h1> Sobre mim </h1>
+    <h1 class="center"> Sobre mim </h1>
 
-    <p> 
-         Para conhecerem um pouco sobre mim e o que eu gosto, criei uma lista dos meus
-         filmes, séries, e animes preferidos.
-    </p>
+    <div class="container2">
 
-    <img src= "./assets/img/netflix-symbol-black.png" alt="Foto do Streaming Netflix">
+        <div class="p-30">
+            <p class="center"> 
+                Para conhecerem um pouco sobre mim e o que eu gosto, criei uma lista dos meus
+                filmes, séries, e animes preferidos.
+           </p>
+        </div>
+       
+        <div>
+            <img class="br-50 wh" src= "./assets/img/Netflix-new-icon.png" alt="Foto do Streaming Netflix">
+        </div>
+      
+    </div>
+    
 
 
-
-        <ul>
+    <div class="container p-30">
+        <ul class="center p-30">
             <h3> Séries </h3>
             <li> Euphoria </li>
             <li> Grey's Anatomy</li>
@@ -42,16 +52,16 @@
             <li> Doctor Who </li>
         </ul>
     
-        <ol>
+        <ul class="center p-30">
             <h3> Filmes </h3>
             <li> Clube da Luta </li>
             <li> Harry Potter e o Prisioneiro de Azkaban </li>
             <li> Divertidamente </li>
             <li> Animais Fantásticos e Onde Habitam</li>
             <li> Como Eu Era Antes de Você </li>
-        </ol>
+        </ul>
 
-        <ul>
+        <ul class="center p-30" >
             <h3> Animes </h3>
             <li> Kimetsu no Waiba </li>
             <li> Tate no Yuusha</li>
@@ -59,6 +69,26 @@
             <li> Death Note</li>
             <li> Shigeki no Kyojin</li>
         </ul>
+    </div>
+        <hr>
+
+      <footer>
+        <div class="container"> 
+            <a href="https://www.linkedin.com/in/laura-barros-souza/" target="_blank">  
+                <img class="tm-social" src="assets/img/linkedin.png" alt="Logo do Linkedln">
+            </a>
+            <a href="https://github.com/LauraBSouza" target="_blank">
+                <img class="tm-social" src="assets/img/github.png" alt="Logo do Github">
+            </a>
+            <a href="https://www.instagram.com/laura1barros/" target="_blank">
+                <img class="tm-social" src="assets/img/instagram.png" alt="Logo do Instagram">
+            </a>
+
+        </div>
+        <p class="center">
+            Laura B. Souza &copy;
+        </p>
+      </footer>
 
    
 </html>
