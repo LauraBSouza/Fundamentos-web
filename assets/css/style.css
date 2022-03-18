@@ -3,6 +3,9 @@
     text-align: center;
 }
 
+.justify{
+    text-align: justify;
+}
 .container{
     display: flex;
     flex-flow: row;
@@ -56,4 +59,5 @@
 /* Estilos da página contato.html */
 .ml-50{
     margin-left: 50px;
+    
 }
